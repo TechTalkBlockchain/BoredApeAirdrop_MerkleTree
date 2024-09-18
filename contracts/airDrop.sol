@@ -14,7 +14,7 @@ contract airDrop is Ownable{
     IERC20 public token;
 
     bytes32 public merkleRoot;
-    address public Bayc_Holder = 0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D;
+    address public Bayc_Holder = 0xf76246B0842c92aD5bD745973Ca9EB85B937b126;
     
 
     mapping(address => bool) public Claims;
